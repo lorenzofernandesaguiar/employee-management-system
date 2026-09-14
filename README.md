@@ -66,6 +66,7 @@ employee-management-system/
 ├── docs/
 │   └── requirements.md
 ├── .gitignore
+├── package.json
 └── README.md
 ```
 
@@ -73,7 +74,7 @@ employee-management-system/
 
 - [x] Definição dos requisitos
 - [x] Inicialização da estrutura do projeto
-- [ ] Inicialização do projeto Node.js
+- [x] Inicialização do projeto Node.js
 - [ ] Configuração do servidor Express
 - [ ] Configuração da conexão com PostgreSQL
 - [ ] Criação do schema do banco de dados

@@ -1,0 +1,23 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "Full stack web application for employee management.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzofernandesaguiar/employee-management-system.git"
+  },
+  "keywords": [],
+  "author": "Lorenzo Fernandes Aguiar",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lorenzofernandesaguiar/employee-management-system/issues"
+  },
+  "homepage": "https://github.com/lorenzofernandesaguiar/employee-management-system#readme"
+}
