@@ -63,9 +63,17 @@ Os requisitos do projeto estão documentados em [`docs/requirements.md`](docs/re
 
 ```text
 employee-management-system/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   └── env.js
+│   │   └── app.js
+│   └── server.js
 ├── docs/
 │   └── requirements.md
+├── .env.example
 ├── .gitignore
+├── package-lock.json
 ├── package.json
 └── README.md
 ```
@@ -75,7 +83,7 @@ employee-management-system/
 - [x] Definição dos requisitos
 - [x] Inicialização da estrutura do projeto
 - [x] Inicialização do projeto Node.js
-- [ ] Configuração do servidor Express
+- [x] Configuração do servidor Express
 - [ ] Configuração da conexão com PostgreSQL
 - [ ] Criação do schema do banco de dados
 - [ ] Implementação da camada Repository

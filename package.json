@@ -2,11 +2,13 @@
   "name": "employee-management-system",
   "version": "1.0.0",
   "description": "Full stack web application for employee management.",
-  "main": "index.js",
+  "main": "backend/server.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/lorenzofernandesaguiar/employee-management-system/issues"
   },
-  "homepage": "https://github.com/lorenzofernandesaguiar/employee-management-system#readme"
+  "homepage": "https://github.com/lorenzofernandesaguiar/employee-management-system#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
