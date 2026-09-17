@@ -66,6 +66,7 @@ employee-management-system/
 ├── backend/
 │   ├── src/
 │   │   ├── config/
+│   │   │   ├── connection.js
 │   │   │   └── env.js
 │   │   └── app.js
 │   └── server.js
@@ -84,7 +85,7 @@ employee-management-system/
 - [x] Inicialização da estrutura do projeto
 - [x] Inicialização do projeto Node.js
 - [x] Configuração do servidor Express
-- [ ] Configuração da conexão com PostgreSQL
+- [x] Configuração da conexão com PostgreSQL
 - [ ] Criação do schema do banco de dados
 - [ ] Implementação da camada Repository
 - [ ] Implementação da camada Controller
