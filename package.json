@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
+    "db:schema": "psql -U postgres -d employee_management_system_db -f backend/database/schema.sql",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

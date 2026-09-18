@@ -64,6 +64,8 @@ Os requisitos do projeto estão documentados em [`docs/requirements.md`](docs/re
 ```text
 employee-management-system/
 ├── backend/
+│   ├── database/
+│   │   └── schema.sql
 │   ├── src/
 │   │   ├── config/
 │   │   │   ├── connection.js
@@ -86,7 +88,7 @@ employee-management-system/
 - [x] Inicialização do projeto Node.js
 - [x] Configuração do servidor Express
 - [x] Configuração da conexão com PostgreSQL
-- [ ] Criação do schema do banco de dados
+- [x] Criação do schema do banco de dados
 - [ ] Implementação da camada Repository
 - [ ] Implementação da camada Controller
 - [ ] Implementação das rotas da API
