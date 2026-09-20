@@ -70,6 +70,8 @@ employee-management-system/
 │   │   ├── config/
 │   │   │   ├── connection.js
 │   │   │   └── env.js
+│   │   ├── repositories/
+│   │   │   └── employeesRepository.js
 │   │   └── app.js
 │   └── server.js
 ├── docs/
@@ -89,7 +91,7 @@ employee-management-system/
 - [x] Configuração do servidor Express
 - [x] Configuração da conexão com PostgreSQL
 - [x] Criação do schema do banco de dados
-- [ ] Implementação da camada Repository
+- [x] Implementação da camada Repository
 - [ ] Implementação da camada Controller
 - [ ] Implementação das rotas da API
 - [ ] Configuração do ambiente de testes da API
