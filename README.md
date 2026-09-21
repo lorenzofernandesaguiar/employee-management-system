@@ -70,6 +70,8 @@ employee-management-system/
 │   │   ├── config/
 │   │   │   ├── connection.js
 │   │   │   └── env.js
+│   │   ├── controllers/
+│   │   │   └── employeesController.js
 │   │   ├── repositories/
 │   │   │   └── employeesRepository.js
 │   │   └── app.js
@@ -92,7 +94,7 @@ employee-management-system/
 - [x] Configuração da conexão com PostgreSQL
 - [x] Criação do schema do banco de dados
 - [x] Implementação da camada Repository
-- [ ] Implementação da camada Controller
+- [x] Implementação da camada Controller
 - [ ] Implementação das rotas da API
 - [ ] Configuração do ambiente de testes da API
 - [ ] Implementação dos testes unitários da camada Repository
