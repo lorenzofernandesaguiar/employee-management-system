@@ -74,6 +74,8 @@ employee-management-system/
 │   │   │   └── employeesController.js
 │   │   ├── repositories/
 │   │   │   └── employeesRepository.js
+│   │   ├── routes/
+│   │   │   └── employeesRoutes.js
 │   │   └── app.js
 │   └── server.js
 ├── docs/
@@ -95,7 +97,7 @@ employee-management-system/
 - [x] Criação do schema do banco de dados
 - [x] Implementação da camada Repository
 - [x] Implementação da camada Controller
-- [ ] Implementação das rotas da API
+- [x] Implementação das rotas da API
 - [ ] Configuração do ambiente de testes da API
 - [ ] Implementação dos testes unitários da camada Repository
 - [ ] Implementação dos testes unitários da camada Controller
