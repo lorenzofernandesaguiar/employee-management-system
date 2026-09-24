@@ -65,7 +65,8 @@ Os requisitos do projeto estão documentados em [`docs/requirements.md`](docs/re
 employee-management-system/
 ├── backend/
 │   ├── database/
-│   │   └── schema.sql
+│   │   ├── schema.sql
+│   │   └── test_seed.sql
 │   ├── src/
 │   │   ├── config/
 │   │   │   ├── connection.js
@@ -77,10 +78,14 @@ employee-management-system/
 │   │   ├── routes/
 │   │   │   └── employeesRoutes.js
 │   │   └── app.js
+│   ├── tests/
+│   │   └── helpers/
+│   │       └── resetTestDatabase.js
 │   └── server.js
 ├── docs/
 │   └── requirements.md
 ├── .env.example
+├── .env.test.example
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
@@ -98,7 +103,7 @@ employee-management-system/
 - [x] Implementação da camada Repository
 - [x] Implementação da camada Controller
 - [x] Implementação das rotas da API
-- [ ] Configuração do ambiente de testes da API
+- [x] Configuração do ambiente de testes da API
 - [ ] Implementação dos testes unitários da camada Repository
 - [ ] Implementação dos testes unitários da camada Controller
 - [ ] Implementação dos testes de integração da API

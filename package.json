@@ -10,7 +10,8 @@
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
     "db:schema": "psql -U postgres -d employee_management_system_db -f backend/database/schema.sql",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "db:test:schema": "psql -U postgres -d employee_management_system_test_db -f backend/database/schema.sql",
+    "test": "cross-env NODE_ENV=test jest"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,9 @@
     "pg": "^8.23.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "cross-env": "^10.1.0",
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.3.0"
   }
 }
