@@ -82,6 +82,7 @@ employee-management-system/
 │   │   ├── helpers/
 │   │   │   └── resetTestDatabase.js
 │   │   └── unit/
+│   │       ├── employeesController.test.js
 │   │       └── employeesRepository.test.js
 │   └── server.js
 ├── docs/
@@ -107,7 +108,7 @@ employee-management-system/
 - [x] Implementação das rotas da API
 - [x] Configuração do ambiente de testes da API
 - [x] Implementação dos testes unitários da camada Repository
-- [ ] Implementação dos testes unitários da camada Controller
+- [x] Implementação dos testes unitários da camada Controller
 - [ ] Implementação dos testes de integração da API
 - [ ] Inicialização da estrutura do frontend
 - [ ] Configuração do Express para servir o frontend
