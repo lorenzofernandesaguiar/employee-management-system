@@ -61,7 +61,7 @@ describe('Employees API', () => {
             });
         });
 
-        it('should return 400 when required fields are missing', async () => {
+        it('should return 400 when required properties are missing', async () => {
             const invalidEmployee = {
                 position: 'Desenvolvedor Backend',
                 phone: '(19) 93417-5628'
@@ -97,7 +97,7 @@ describe('Employees API', () => {
             });
         });
 
-        it('should return 400 when required fields are missing', async () => {
+        it('should return 400 when required properties are missing', async () => {
             const invalidUpdatedEmployee = {
                 position: 'Analista de Sistemas',
                 phone: '(85) 91285-6374'
