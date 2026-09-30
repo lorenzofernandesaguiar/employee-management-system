@@ -89,6 +89,17 @@ employee-management-system/
 │   └── server.js
 ├── docs/
 │   └── requirements.md
+├── frontend/
+│   ├── assets/
+│   │   └── icons/
+│   │       └── favicon.png
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   ├── api.js
+│   │   ├── main.js
+│   │   └── ui.js
+│   └── index.html
 ├── .env.example
 ├── .env.test.example
 ├── .gitignore
@@ -112,7 +123,7 @@ employee-management-system/
 - [x] Implementação dos testes unitários da camada Repository
 - [x] Implementação dos testes unitários da camada Controller
 - [x] Implementação dos testes de integração da API
-- [ ] Inicialização da estrutura do frontend
+- [x] Inicialização da estrutura do frontend
 - [ ] Configuração do Express para servir o frontend
 - [ ] Criação da estrutura da interface web
 - [ ] Implementação dos estilos da interface web
