@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Gerenciamento de Funcionários</title>
     <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1>Sistema de Gerenciamento de Funcionários</h1>
+    <header>
+        <h1>Sistema de Gerenciamento de Funcionários</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Cadastrar novo funcionário</h2>
+            <form id="create-employee-form">
+                <input type="text" id="create-employee-name-input" name="name" placeholder="Nome" required maxlength="100">
+                <input type="text" id="create-employee-position-input" name="position" placeholder="Cargo" required maxlength="100">
+                <input type="text" id="create-employee-phone-input" name="phone" placeholder="Telefone" required maxlength="15">
+                <button class="button button-green" type="submit">Cadastrar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Editar funcionário</h2>
+            <p id="edit-employee-message">O formulário de edição será exibido aqui.</p>
+            <form id="edit-employee-form" hidden>
+                <input type="text" id="edit-employee-name-input" name="name" placeholder="Nome" required maxlength="100">
+                <input type="text" id="edit-employee-position-input" name="position" placeholder="Cargo" required maxlength="100">
+                <input type="text" id="edit-employee-phone-input" name="phone" placeholder="Telefone" required maxlength="15">
+                <button class="button button-blue" type="submit">Salvar</button>
+                <button class="button button-red" id="cancel-edit-button" type="button">Cancelar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Lista de funcionários cadastrados</h2>
+            <ul id="employees-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto pessoal desenvolvido por Lorenzo Fernandes Aguiar</p>
+    </footer>
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
