@@ -126,7 +126,7 @@ employee-management-system/
 - [x] Inicialização da estrutura do frontend
 - [x] Configuração do Express para servir o frontend
 - [x] Criação da estrutura da interface web
-- [ ] Implementação dos estilos da interface web
+- [x] Implementação dos estilos da interface web
 - [ ] Implementação do cliente da API
 - [ ] Implementação do comportamento da interface web
 - [ ] Integração do frontend
