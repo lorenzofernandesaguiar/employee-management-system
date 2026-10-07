@@ -128,7 +128,7 @@ employee-management-system/
 - [x] Criação da estrutura da interface web
 - [x] Implementação dos estilos da interface web
 - [x] Implementação do cliente da API
-- [ ] Implementação do comportamento da interface web
+- [x] Implementação do comportamento da interface web
 - [ ] Integração do frontend
 
 ## Autor
