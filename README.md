@@ -16,7 +16,7 @@ A aplicação permite visualizar, cadastrar, editar e excluir funcionários por 
 
 ### Interface web da aplicação
 
-![Interface web da aplicação](docs/images/application.png)
+![Interface web da aplicação](docs/images/application.PNG)
 
 ### Demonstração de uso
 
@@ -158,7 +158,7 @@ employee-management-system/
 │   ├── gifs/
 │   │   └── demo.gif
 │   ├── images/
-│   │   └── application.png
+│   │   └── application.PNG
 │   └── requirements.md
 ├── frontend/
 │   ├── assets/
